@@ -1,6 +1,6 @@
 # README
 
-####This is the starter code for Exam 2, for both sections: W and X.
+This is the starter code for Exam 2, for both sections: W and X.
 
 You have THREE hours to complete this project by adding the following:
 
