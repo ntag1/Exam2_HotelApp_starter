@@ -44,8 +44,8 @@ group :development, :test do
   gem 'rspec-rails', '~> 3.4'
   gem 'faker', :git => 'https://github.com/faker-ruby/faker.git', :branch => 'master' #  - Generates realistic fake data
   gem 'factory_bot_rails', '4.8.2' # - factories over fixtures
-  gem 'shoulda', '3.5.0'
-  gem 'shoulda-matchers', '2.8.0'
+  gem 'shoulda', '3.6.0'
+  gem 'shoulda-matchers', '3.1.3'
   gem 'simplecov' # examine code coverage
   gem 'minitest', '5.14.0'
   gem 'minitest-rails', '3.0.0'
