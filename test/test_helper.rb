@@ -14,4 +14,10 @@ class ActiveSupport::TestCase
   include Contexts # calling all the methods define in contexts.rb
   Minitest::Reporters.use! [Minitest::Reporters::SpecReporter.new]
 
+  Shoulda::Matchers.configure do |config|
+    config.integrate do |with|
+        with.test_framework :minitest
+        with.library :rails
+    end
+end 
 end
